@@ -25,7 +25,7 @@ class TStack {
         if (x > 0) {
             return ptr[--x];
         } else {
-            std::string(" Empty ");
+            throw std::string("Empty");
         }
     }
     bool IfZero() const {
