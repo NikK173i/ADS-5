@@ -6,10 +6,11 @@
 
 template<typename T, int size>
 class TStack {
-private:
+ private:
     T* ptr;
     int x;
-public:
+
+ public:
     TStack() : x(0) {
         ptr = new T[size];
     }
@@ -38,4 +39,5 @@ public:
         }
     }
 };
+
 #endif  //INCLUDE_TSTACK_H_
