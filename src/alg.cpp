@@ -38,7 +38,8 @@ std::string infx2pstfx(std::string inf) {
                             if (prioty(n) > prioty(stack.ElemUp())) {
                                 stack.pushup(n);
                             } else {
-                                while ((!stack.IfZero()) && (prioty(n) <= prioty(stack.ElemUp()))) {
+                                while ((!stack.IfZero()) &&
+                                    (prioty(n) <= prioty(stack.ElemUp()))) {
                                     line = line + " " + stack.popback();
                                 }
                                 stack.pushup(n);
