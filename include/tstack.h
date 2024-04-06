@@ -1,4 +1,4 @@
-// Copyright 2024 NNTU-CS
+// Copyright 2021 NNTU-CS
 #include <iostream>
 #include <string>
 #ifndef INCLUDE_TSTACK_H_
